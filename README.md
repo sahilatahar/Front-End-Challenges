@@ -6,7 +6,7 @@ This repository contains a collection of front-end challenges that I have comple
 
 | SN  | Challenges                                                                                                        | Live Preview                                                                                      |
 | :-: | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| 01  | [Interactive card details form](https://github.com/Front-End-Challenges/tree/main/interactive-card-details-form/) | [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/interactive-card-details-form/) |
+| 01  | [Interactive card details form](https://github.com/sahilatahar/Front-End-Challenges/tree/main/interactive-card-details-form) | [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/interactive-card-details-form/) |
 
 ## Instructions
 
