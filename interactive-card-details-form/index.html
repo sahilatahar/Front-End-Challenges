@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive card details form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="front__card">
+      <img src="./images/card-logo.svg" alt="card logo" class="card__logo">
+      <div class="card__details">
+        <p id="card__number">1234 5678 9123 000</p>
+        <div>
+          <p id="holder__name">Sahil Atahar</p>
+          <p id="expiry__date">09/00</p>
+        </div>
+      </div>
+    </div>
+    <div class="rear__card">
+      <p id="cvc__number">000</p>
+    </div>
+  </div>
+
+  <!-- Container -->
+  <div class="container">
+    <form class="card__form">
+      <div class="form__group">
+        <label for="card__holder__input">Cardholder name</label>
+        <input type="text" name="card__holder__input" id="card__holder__input" placeholder="e.g. Jane Appleseed">
+        <span class="name__error__msg" id="name__error__msg"></span>
+      </div>
+      <div class="form__group">
+        <label for="card__number__input">Card number</label>
+        <input type="number" name="card__number__input" id="card__number__input" placeholder="e.g. 1234 5678 9123 0000"
+          maxlength="16">
+        <span class="number__error__msg"></span>
+      </div>
+      <div class="input__group">
+        <div class="expiry__group">
+          <label>Exp. Date (MM/YY)</label>
+          <div class="expiry__inputs">
+            <input type="number" name="expiry__month__input" id="expiry__month__input" maxlength="2" placeholder="MM"
+              min="1" max="12">
+            <input type="number" name="expiry__year" id="expiry__year__input" maxlength="2" placeholder="YY">
+          </div>
+          <span class="expiry__error__msg"></span>
+        </div>
+        <div class="form__group">
+          <label for="cvc__number__input">CVC</label>
+          <input type="number" name="cvc__number__input" id="cvc__number__input" placeholder="e.g. 123" maxlength="3"
+            min="3">
+          <span class="cvc_number__error__msg"></span>
+        </div>
+      </div>
+      <input type="submit" value="Confirm" class="submit__btn">
+    </form>
+
+    <!-- Complete Container -->
+    <div class="complete__container">
+      <img src="./images/icon-complete.svg" alt="icon-complete" class="complete__logo">
+      <h2>Thank You!</h2>
+      <p>We've added you card details</p>
+      <button>Continue</button>
+    </div>
+  </div>
+
+  <!-- Attribution -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/sahilatahar">Sahil Atahar</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
