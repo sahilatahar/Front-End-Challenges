@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [See Solution](https://github.com/Front-End-Challenges/tree/main/interactive-card-details-form/)
-- Live Site: [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/interactive-card-details-form/)
+- Solution URL: [Code on Github](https://github.com/sahilatahar/Front-End-Challenges/tree/main/interactive-card-details-form/)
+- Live Site: [Github Pages via URL](https://sahilatahar.github.io/Front-End-Challenges/interactive-card-details-form/)
 
 ## My process
 
