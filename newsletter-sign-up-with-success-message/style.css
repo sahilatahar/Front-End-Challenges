@@ -30,7 +30,7 @@ body {
 
 .signup__card {
     width: 60vw;
-    height: 80vh;
+    height: fit-content;
     min-height: fit-content;
     border-radius: 1.5rem;
     background: var(--white);
