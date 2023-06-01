@@ -54,3 +54,4 @@ It was a simple project but it helps me to improve my CSS, Responsiveness skills
 - Website - [Sahil Atahar](https://linktr.ee/sahilatahar)
 - Frontend Mentor - [@sahilatahar](https://www.frontendmentor.io/profile/sahilatahar)
 - Twitter - [@sahilatahar](https://www.twitter.com/sahilatahar)
+- Instagram - [@sahilatahar](https://www.instagram.com/sahilatahar)

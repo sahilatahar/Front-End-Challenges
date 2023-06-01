@@ -1,0 +1,246 @@
+.container {
+    width: 60vw;
+    background-color: var(--white);
+    padding: 3rem;
+    border-radius: 2rem 2rem 12rem 2rem;
+    -webkit-border-radius: 2rem 2rem 12rem 2rem;
+    -moz-border-radius: 2rem 2rem 12rem 2rem;
+    -ms-border-radius: 2rem 2rem 12rem 2rem;
+    -o-border-radius: 2rem 2rem 12rem 2rem;
+}
+
+.header {
+    width: 100%;
+}
+
+.form {
+    width: 100%;
+}
+
+.dob-inputs {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    align-items: start;
+}
+
+.input-group {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input-group>label {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--smokey-grey);
+}
+
+.input-group>input[type="number"] {
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    border: 1px solid var(--light-grey);
+    outline: none;
+}
+
+.input-group>span {
+    width: 100%;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+/* Hiding Input number arrow */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    display: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+.input-group>input[type="number"]:focus,
+.input-group>input[type="number"]:focus-visible {
+    outline: 1px solid var(--purple);
+}
+
+/* When error ocurred adding class and making input label span red */
+.error label {
+    color: var(--light-red);
+}
+
+.error input[type="number"] {
+    border-color: var(--light-red);
+}
+
+.error input[type="number"]:focus,
+.error input[type="number"]:focus-visible {
+    outline: 1px solid var(--light-red);
+}
+
+
+
+.error span {
+    color: var(--light-red);
+}
+
+.divider-panel {
+    margin-top: 3rem;
+    position: relative;
+}
+
+.divider-panel>hr {
+    color: var(--light-grey);
+}
+
+.arrow-btn {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    padding: 1.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: none;
+    aspect-ratio: 1;
+    background-color: var(--purple);
+}
+
+.arrow-btn:hover {
+    background-color: var(--off-black);
+}
+
+.age-block {
+    padding-top: 3rem;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+
+.age-heading {
+    font-size: 6rem;
+    color: var(--off-black);
+    line-height: 100%;
+}
+
+.age-heading>span {
+    color: var(--purple);
+}
+
+.attribution {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.attribution a {
+    color: var(--purple);
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 80vw;
+    }
+
+    .age-heading {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        min-height: auto;
+        align-items: start;
+    }
+
+    .container {
+        width: 90vw;
+        padding: 2rem;
+        border-bottom-right-radius: 8rem;
+        margin: 6rem 0;
+    }
+
+    .dob-inputs {
+        gap: 0.5rem;
+        justify-content: space-evenly;
+    }
+
+    .input-group {
+        width: 30%;
+    }
+
+    .input-group>input[type="number"] {
+        padding: 0.5rem 1rem;
+        font-size: 1.3rem;
+    }
+
+    .divider-panel {
+        padding: 0;
+        margin-top: 4rem;
+    }
+
+    .arrow-btn {
+        padding: 1rem;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        -webkit-transform: translate(50%, -50%);
+        -moz-transform: translate(50%, -50%);
+        -ms-transform: translate(50%, -50%);
+        -o-transform: translate(50%, -50%);
+    }
+
+    .age-heading {
+        font-size: 4rem;
+    }
+
+    .age-block {
+        padding-top: 4rem;
+    }
+
+    .attribution {
+        position: static;
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .input-group>input[type="number"] {
+        padding: 0.5rem;
+    }
+
+    .age-heading {
+        font-size: 2.5rem;
+    }
+}
