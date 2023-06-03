@@ -9,6 +9,7 @@ This repository contains a collection of front-end challenges that I have comple
 | 01  | [Interactive card details form](https://github.com/sahilatahar/Front-End-Challenges/tree/main/interactive-card-details-form)                     |      [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/interactive-card-details-form/)      |
 | 02  | [Newsletter Sign Up With Success Message](https://github.com/sahilatahar/Front-End-Challenges/tree/main/newsletter-sign-up-with-success-message) | [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/newsletter-sign-up-with-success-message/) |
 | 03  | [Age Calculator](https://github.com/sahilatahar/Front-End-Challenges/tree/main/age-calculator)                                                   |                   [Live Preview](https://frontend-challenge-age-calculator.netlify.app/)                    |
+| 04  | [NFT Preview Card](https://github.com/sahilatahar/Front-End-Challenges/tree/main/nft-preview-card)                                               |             [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/nft-preview-card)             |
 
 ### Built with
 
