@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  background-color: hsl(218, 23%, 16%);
+  font-weight: 800;
+}
+
+.container {
+  width: min(600px, 95vw);
+  background: hsl(217, 19%, 24%);
+  padding: 2rem;
+  border-radius: 0.725rem;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.container__title {
+  color: hsl(150, 100%, 66%);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.container__advice {
+  color: hsl(193, 38%, 86%);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.container picture {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0 1.5rem;
+}
+.container picture img {
+  max-width: 100%;
+}
+.container__button {
+  width: 65px;
+  aspect-ratio: 1;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border: 0;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+}
+.container__button img {
+  width: 70%;
+}
+.container__button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 25px 1px #7affbd;
+}
+@media screen and (max-width: 768px) {
+  .container__title {
+    font-size: 0.8rem;
+  }
+  .container__advice {
+    font-size: 1.2rem;
+  }
+  .container picture {
+    margin-bottom: 1rem;
+  }
+  .container__button {
+    width: 50px;
+    padding: 0.5rem;
+  }
+  .container__button img {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .container {
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+}
+
+.attribution {
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0.5rem;
+  left: 0;
+  color: hsl(193, 38%, 86%);
+}
+.attribution a {
+  color: hsl(150, 100%, 66%);
+}/*# sourceMappingURL=main.css.map */
