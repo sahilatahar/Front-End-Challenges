@@ -24,10 +24,11 @@ Users should be able to:
 - Generate a new piece of advice by clicking the dice icon
 
 ### Screenshot
+![advice-generator](https://github.com/sahilatahar/Front-End-Challenges/assets/100127570/34241565-a778-4212-accc-f8007af81bc3)
 
 ### Links
 
-- Solution on [Frontend Mentor](https://your-solution-url.com)
+- Solution on [Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-0MbDFUvmG-)
 - Live Site on [Github Pages](https://sahilatahar.github.io/Front-End-Challenges/advice-generator)
 
 ## My process
