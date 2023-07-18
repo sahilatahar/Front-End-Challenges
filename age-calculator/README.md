@@ -31,10 +31,12 @@ Users should be able to:
 
 ### Screenshot
 
+![age-calculator](https://github.com/sahilatahar/Front-End-Challenges/assets/100127570/4144a50e-dd0a-43cd-ad08-8eaf313dfd6e)
+
 ### Links
 
-- Solution URL: [Code on Github](https://github.com/sahilatahar/Front-End-Challenges/tree/main/age-calculator)
-- Live Site URL: [Live on Netlify](https://frontend-challenge-age-calculator.netlify.app/)
+- Solution URL on [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-age-calculator-using-react-and-vite-26wQ4AkUG4)
+- Live Site on [Netlify](https://frontend-challenge-age-calculator.netlify.app/)
 
 ## My process
 
