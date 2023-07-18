@@ -29,11 +29,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot.png)
+![creadit card](https://github.com/sahilatahar/Front-End-Challenges/assets/100127570/5a57171b-738e-48ea-afb1-e4557370be1b)
 
 ### Links
 
-- Solution URL: [Code on Github](https://github.com/sahilatahar/Front-End-Challenges/tree/main/interactive-card-details-form/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/fully-responsive-interactive-card-details-form-IBZQdMfy4V)
 - Live Site: [Github Pages via URL](https://sahilatahar.github.io/Front-End-Challenges/interactive-card-details-form/)
 
 ## My process
