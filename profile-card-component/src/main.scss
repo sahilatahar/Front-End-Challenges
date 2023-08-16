@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.profile {
+  width: min(95vw, 700px);
+  border-radius: 1.875rem;
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem 2rem 4rem;
+  gap: 2rem;
+  position: relative;
+
+  .img-container {
+    width: 80%;
+    img {
+      width: 100%;
+      max-width: 100%;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      border: 10px solid #e6e6e6;
+    }
+  }
+
+  .details {
+    .name {
+      color: #141843;
+      font-family: "Merriweather", serif;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+    .job-title {
+      color: #5f627a;
+      font-size: 1.5rem;
+    }
+    .about {
+      color: #141843;
+      font-size: 1.5rem;
+    }
+  }
+
+  .info {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    align-items: center;
+    color: #141843;
+
+    .vl {
+      border-left: 1px solid #141843;
+      height: 2rem;
+    }
+  }
+
+  .buttons {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    a {
+      width: 8rem;
+      border-radius: 0.625rem;
+      border: 1px solid #141843;
+      padding: 0.8rem 0;
+      font-size: 1rem;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    .follow-btn {
+      background: #aef1f5;
+    }
+
+    .view-profile-btn {
+      background-color: #ffddb6;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-left: 1rem;
+    gap: 1rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+
+    .img-container {
+      width: 50%;
+      margin: auto;
+    }
+
+    .details {
+      text-align: center;
+      align-items: center;
+
+      .name {
+        font-size: 1.5rem;
+      }
+      .job-title {
+        font-size: 1.2rem;
+      }
+      .about {
+        font-size: 1.2rem;
+      }
+    }
+
+    .info {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .buttons {
+      justify-content: center;
+    }
+  }
+
+  .ellipse {
+    position: absolute;
+    width: 33rem;
+    height: 33rem;
+    z-index: -1;
+    border-radius: 50%;
+  }
+
+  .pink-ellipse {
+    top: 80%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(237, 187, 255, 0.6) 0%,
+      rgba(237, 187, 255, 0) 100%
+    );
+  }
+  .teal-ellipse {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #c6fcff 0%,
+      rgba(198, 252, 255, 0) 100%
+    );
+  }
+
+  .orange-ellipse {
+    top: 50%;
+    right: 0px;
+    transform: translate(50%, -50%);
+    border-radius: 45rem;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #ffddb6 0%,
+      rgba(255, 221, 182, 0) 100%
+    );
+  }
+}

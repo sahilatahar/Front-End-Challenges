@@ -13,6 +13,7 @@ This repository contains a collection of front-end challenges that I have comple
 | 05  | [Advice Generator](https://github.com/sahilatahar/Front-End-Challenges/tree/main/advice-generator)                                               |             [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/advice-generator)             |
 | 06  | [QR Card Component](https://github.com/sahilatahar/Front-End-Challenges/tree/main/qr-code-component)                                             |            [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/qr-code-component)             |
 | 07  | [Star Rating Component](https://github.com/sahilatahar/Front-End-Challenges/tree/main/star-rating-component)                                     |          [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/star-rating-component)           |
+| 08  | [Profile Card Component](https://github.com/sahilatahar/Front-End-Challenges/tree/main/profile-card-component)                                     |          [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/profile-card-component)           |
 
 ### Built with
 
