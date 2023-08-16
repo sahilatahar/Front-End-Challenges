@@ -1,4 +1,4 @@
-![Profile Card Component](./design/desktop-cover.png)
+![Profile Card Component](.img//design/desktop.png)
 
 **Challenge Title**
 Profile Card Component
