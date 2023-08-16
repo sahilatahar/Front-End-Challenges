@@ -1,4 +1,4 @@
-![Profile Card Component](.img//design/desktop.png)
+## [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/profile-card-component/)
 
 **Challenge Title**
 Profile Card Component

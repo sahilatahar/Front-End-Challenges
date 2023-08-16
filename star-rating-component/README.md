@@ -1,4 +1,4 @@
-![Star Rating Component](./design/Rating-5.png)
+## [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/star-rating-component/)
 
 **Challenge Title**
 Star Rating Component
