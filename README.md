@@ -11,7 +11,8 @@ This repository contains a collection of front-end challenges that I have comple
 | 03  | [Age Calculator](https://github.com/sahilatahar/Front-End-Challenges/tree/main/age-calculator)                                                   |                   [Live Preview](https://frontend-challenge-age-calculator.netlify.app/)                    |
 | 04  | [NFT Preview Card](https://github.com/sahilatahar/Front-End-Challenges/tree/main/nft-preview-card)                                               |             [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/nft-preview-card)             |
 | 05  | [Advice Generator](https://github.com/sahilatahar/Front-End-Challenges/tree/main/advice-generator)                                               |             [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/advice-generator)             |
-| 06  | [QR Card Component](https://github.com/sahilatahar/Front-End-Challenges/tree/main/qr-code-component)                                               |             [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/qr-code-component)             |
+| 06  | [QR Card Component](https://github.com/sahilatahar/Front-End-Challenges/tree/main/qr-code-component)                                             |            [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/qr-code-component)             |
+| 07  | [Star Rating Component](https://github.com/sahilatahar/Front-End-Challenges/tree/main/star-rating-component)                                     |          [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/star-rating-component)           |
 
 ### Built with
 
