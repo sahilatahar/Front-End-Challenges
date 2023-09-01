@@ -13,13 +13,14 @@ This repository contains a collection of front-end challenges that I have comple
 | 05  | [Advice Generator](https://github.com/sahilatahar/Front-End-Challenges/tree/main/advice-generator)                                               |             [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/advice-generator)             |
 | 06  | [QR Card Component](https://github.com/sahilatahar/Front-End-Challenges/tree/main/qr-code-component)                                             |            [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/qr-code-component)             |
 | 07  | [Star Rating Component](https://github.com/sahilatahar/Front-End-Challenges/tree/main/star-rating-component)                                     |          [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/star-rating-component)           |
-| 08  | [Profile Card Component](https://github.com/sahilatahar/Front-End-Challenges/tree/main/profile-card-component)                                     |          [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/profile-card-component)           |
+| 08  | [Profile Card Component](https://github.com/sahilatahar/Front-End-Challenges/tree/main/profile-card-component)                                   |          [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/profile-card-component)          |
+| 09  | [Multi Select Search](https://github.com/sahilatahar/Front-End-Challenges/tree/main/multi-select-search)                                         |                          [Live Preview](https://multi-select-search.netlify.app/)                           |
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- CSS (SCSS)
+- CSS/SCSS
 - FlexBox
 - CSS Media Queries
 - React
@@ -40,6 +41,6 @@ This project is licensed under the [MIT License](LICENSE).
 ## Author
 
 - Website - [Sahil Atahar](https://linktr.ee/sahilatahar)
-- Frontend Mentor - [@sahilatahar](https://www.frontendmentor.io/profile/sahilatahar)
-- Twitter - [@sahilatahar](https://www.twitter.com/sahilatahar)
-- Instagram - [@sahilatahar](https://www.instagram.com/sahilatahar)
+- Frontend Mentor - [sahilatahar](https://www.frontendmentor.io/profile/sahilatahar)
+- Twitter - [sahilatahar](https://www.twitter.com/sahilatahar)
+- Instagram - [sahilatahar](https://www.instagram.com/sahilatahar)

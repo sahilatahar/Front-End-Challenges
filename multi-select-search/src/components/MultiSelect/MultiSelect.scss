@@ -1,0 +1,95 @@
+$clr-selected: #edeffb;
+$clr-text: #11103c;
+$clr-bg: #ffffff;
+
+.MultiSelect {
+  width: min(600px, 90%);
+  margin: 4rem 0;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  position: relative;
+
+  h2 {
+    font-size: 1.5rem;
+    color: $clr-text;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .tags-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid $clr-text;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    background-color: $clr-bg;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+
+    input {
+      min-width: 20%;
+      outline: none;
+      font-size: 1.1rem;
+      padding-left: 0.3rem;
+      color: $clr-text;
+      background-color: $clr-bg;
+      border: 1px solid $clr-text;
+      border-radius: 0.25rem;
+      padding: 0.5rem;
+
+      @media screen and (max-width: 400px) {
+        min-width: 50%;
+      }
+    }
+  }
+
+  .Suggestion__list {
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 0.25rem;
+    padding: 0.8rem;
+    border: 1px solid $clr-text;
+
+    .Suggestion__item {
+      background-color: $clr-bg;
+      cursor: pointer;
+      padding: 0.5rem;
+      color: $clr-text;
+      border-radius: 0.25rem;
+
+      &:hover {
+        background-color: $clr-selected;
+      }
+    }
+  }
+}
+
+.Tag {
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: $clr-selected;
+  border-radius: 0.25rem;
+
+  span {
+    color: $clr-text;
+  }
+}
+
+.Button {
+  border: 0;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+
+  svg {
+    width: 1rem;
+    height: 1rem;
+    fill: $clr-text;
+  }
+}
