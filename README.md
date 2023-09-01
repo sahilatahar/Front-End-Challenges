@@ -1,8 +1,6 @@
 # Front-End Challenges
 
-This repository contains a collection of front-end challenges that I have completed. Each challenge is listed in the table below, along with a brief description.
-
-## Challenges
+This repository contains a collection of front-end challenges that I have completed. Each challenge is listed in the table below.
 
 | SN  | Challenges                                                                                                                                       |                                                Live Preview                                                 |
 | :-: | ------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------: |
