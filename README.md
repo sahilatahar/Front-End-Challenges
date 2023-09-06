@@ -1,6 +1,9 @@
-# Front-End Challenges
+<h1 align="center">Front-End Challenges</h1>
 
-This repository contains a collection of front-end challenges that I have completed. Each challenge is listed in the table below.
+<div style="text-align: center;">
+    This repository contains a collection of front-end challenge. Each challenge is listed in the table below.
+</div>
+<br>
 
 | SN  | Challenges                                                                                                                                       |                                                Live Preview                                                 |
 | :-: | ------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------: |
@@ -13,32 +16,26 @@ This repository contains a collection of front-end challenges that I have comple
 | 07  | [Star Rating Component](https://github.com/sahilatahar/Front-End-Challenges/tree/main/star-rating-component)                                     |          [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/star-rating-component)           |
 | 08  | [Profile Card Component](https://github.com/sahilatahar/Front-End-Challenges/tree/main/profile-card-component)                                   |          [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/profile-card-component)          |
 | 09  | [Multi Select Search](https://github.com/sahilatahar/Front-End-Challenges/tree/main/multi-select-search)                                         |                          [Live Preview](https://multi-select-search.netlify.app/)                           |
+| 10  | [404 Not Found](https://github.com/sahilatahar/Front-End-Challenges/tree/main/404-not-found)                                                     |              [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/404-not-found)               |
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- CSS/SCSS
-- FlexBox
-- CSS Media Queries
-- React
-- Vite
+- HTML5
+- CSS / SCSS
+- React with Vite
 
-## Instructions
+### Challenges from
 
-To access and run each challenge, follow the instructions provided in their respective folders or repositories.
+- [Frontend Mentor](https://www.frontendmentor.io/challenges)
+- [DevChallenges](https://devchallenges.io)
+- [Frontend Pro](https://www.frontendpro.dev/)
 
-## Contributing
-
-If you would like to contribute to this collection by adding your own front-end challenges, feel free to submit a pull request.
-
-## License
+### License
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Author
+### Author
 
-- Website - [Sahil Atahar](https://linktr.ee/sahilatahar)
-- Frontend Mentor - [sahilatahar](https://www.frontendmentor.io/profile/sahilatahar)
-- Twitter - [sahilatahar](https://www.twitter.com/sahilatahar)
-- Instagram - [sahilatahar](https://www.instagram.com/sahilatahar)
+- Linktree - [sahilatahar](https://linktr.ee/sahilatahar)
+- GitHub - [sahilatahar](https://github.com/sahilatahar)
+- LinkedIn - [sahilatahar](https://www.linkedin.com/in/sahilatahar/)

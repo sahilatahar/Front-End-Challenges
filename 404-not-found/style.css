@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+    --clr-black: #333333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+header {
+    width: 100%;
+    padding: 2rem;
+}
+
+header span {
+    font-size: 1.5rem;
+    color: var(--clr-black);
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    min-height: 80vh;
+}
+
+main>div {
+    width: 50%;
+}
+
+.img-container img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.message h1 {
+    font-size: 4rem;
+    color: var(--clr-black);
+    margin-bottom: 1rem;
+    letter-spacing: -2.24px;
+}
+
+.message p {
+    color: #4F4F4F;
+    font-size: 1.5rem;
+}
+
+.message>a {
+    text-decoration: none;
+    background-color: var(--clr-black);
+    color: white;
+    padding: 1rem 1.5rem;
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: var(--clr-black);
+    padding: 0 2rem;
+}
+
+footer a {
+    color: #ff6d5b;
+}
+
+@media screen and (max-width: 1000px) {
+
+    main {
+        gap: 1rem;
+    }
+
+    .message h1 {
+        font-size: 3rem;
+    }
+
+    .img-container img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        min-height: auto;
+    }
+
+    .message h1 {
+        font-size: 2rem;
+    }
+
+    .message p {
+        font-size: 1rem;
+    }
+
+    .message>a {
+        margin-top: 1rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
+
+    main>div {
+        width: 100%;
+    }
+
+    .img-container img {
+        width: 100%;
+    }
+
+    .message h1 {
+        font-size: 1.5rem;
+    }
+
+    .message p {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .message>a {
+        margin-top: 2rem;
+    }
+
+    footer {
+        position: static;
+        padding: .5rem;
+    }
+}
