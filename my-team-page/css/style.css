@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 5% 15%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+header h1 {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+header .right-section {
+  width: 50%;
+}
+header .right-section h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+header .right-section p {
+  font-family: 400;
+  color: #000;
+  font-size: 1.1rem;
+}
+
+main {
+  padding-top: 5rem;
+}
+main .member-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 6rem;
+       column-gap: 6rem;
+  row-gap: 2rem;
+}
+main .member-row .member {
+  margin-right: 1rem;
+  position: relative;
+}
+main .member-row .member__img {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+main .member-row .member__name {
+  padding-top: 1rem;
+}
+main .member-row .member__role {
+  color: #000;
+  font-size: 0.9rem;
+  font-family: "PT Serif", serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(115%, -50%) rotate(90deg);
+  transform-origin: left;
+}
+
+.member:nth-of-type(3n - 1) {
+  margin-top: 50%;
+}
+
+footer {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #000;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1068px) {
+  body {
+    padding: 5% 10%;
+  }
+  main .member-row {
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    padding: 2rem;
+  }
+  header {
+    flex-direction: column;
+  }
+  header .right-section {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  main .member-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .member:nth-of-type(3n - 1) {
+    margin-top: 0;
+  }
+  .member:nth-of-type(2n) {
+    margin-top: 25%;
+  }
+}
+@media screen and (max-width: 500px) {
+  main .member-row {
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    padding: 1rem;
+  }
+  header {
+    flex-direction: column;
+  }
+  header .right-section {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  main .member-row {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */

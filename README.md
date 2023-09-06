@@ -16,6 +16,7 @@ This repository contains a collection of front-end challenge. Each challenge is 
 | 08  | [Profile Card Component](https://github.com/sahilatahar/Front-End-Challenges/tree/main/profile-card-component)                                   |          [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/profile-card-component)          |
 | 09  | [Multi Select Search](https://github.com/sahilatahar/Front-End-Challenges/tree/main/multi-select-search)                                         |                          [Live Preview](https://multi-select-search.netlify.app/)                           |
 | 10  | [404 Not Found](https://github.com/sahilatahar/Front-End-Challenges/tree/main/404-not-found)                                                     |              [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/404-not-found)               |
+| 11  | [My Team Page](https://github.com/sahilatahar/Front-End-Challenges/tree/main/my-team-page)                                                     |              [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/my-team-page)               |
 
 ### Built with
 
