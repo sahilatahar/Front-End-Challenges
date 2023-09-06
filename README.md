@@ -1,8 +1,7 @@
-<h1 align="center">Front-End Challenges</h1>
+# Front-End-Challenges
 
-<div style="text-align: center;">
-    This repository contains a collection of front-end challenge. Each challenge is listed in the table below.
-</div>
+This repository contains a collection of front-end challenge. Each challenge is listed in the table below
+
 <br>
 
 | SN  | Challenges                                                                                                                                       |                                                Live Preview                                                 |
