@@ -1,5 +1,7 @@
 <h1 align="center">404 Not Found</h1>
 
+![404-not-found](https://github.com/sahilatahar/Front-End-Challenges/assets/100127570/8f542084-ae93-4a2e-b87b-5ff35d6a6818)
+
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
@@ -26,8 +28,7 @@
 
 - [Built With](#built-with)
 - [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+- [Author](#author)
 
 <!-- Built With -->
 
@@ -41,3 +42,9 @@
 ## Features
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+
+### Author
+
+- Linktree - [sahilatahar](https://linktr.ee/sahilatahar)
+- GitHub - [sahilatahar](https://github.com/sahilatahar)
+- LinkedIn - [sahilatahar](https://www.linkedin.com/in/sahilatahar/)
