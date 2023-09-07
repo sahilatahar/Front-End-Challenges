@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #181719;
+  color: #fff;
+  padding: 0 5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  padding-top: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+
+  .brand {
+    font-family: "Lora", serif;
+    font-size: 1.5rem;
+    border: 1px solid #fff;
+    padding: 0.5rem;
+  }
+
+  .nav__list {
+    display: flex;
+    list-style-type: none;
+    gap: 3rem;
+
+    &-item {
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      position: relative;
+
+      &::before {
+        content: "";
+        width: 0%;
+        height: 2px;
+        background-color: #fff;
+        display: block;
+        transition: width 0.3s;
+        position: absolute;
+        bottom: 10%;
+      }
+      &:hover::before {
+        width: 100%;
+      }
+    }
+
+    .close-icon {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      width: 2rem;
+      height: 2rem;
+      cursor: pointer;
+      display: none;
+      margin-top: 0.8rem;
+    }
+  }
+
+  .menu-icon {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    display: none;
+  }
+}
+
+main {
+  padding-top: 2.5rem;
+  display: flex;
+  gap: 3rem;
+
+  & > * {
+    flex: 1;
+  }
+
+  .content-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+    &__title {
+      font-size: 3rem;
+      font-weight: 700;
+      font-family: "Lora", serif;
+    }
+    &__subtitle {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    &__btn {
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: 700;
+      color: #fff;
+      font-size: 1.1rem;
+
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+
+      .icon {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+
+  .image-side {
+    position: relative;
+
+    .profile-card {
+      position: absolute;
+      bottom: 0%;
+      right: 5%;
+      width: 60%;
+      transform: translateY(50%);
+      background: #181719;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      padding: 1rem 2rem;
+
+      header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-bottom: 1rem;
+
+        img {
+          height: 3rem;
+          border-radius: 50%;
+        }
+
+        div {
+          .profile-card__name {
+            margin-left: 1rem;
+            font-size: 0.9rem;
+            font-weight: 700;
+          }
+
+          .profile-card__job {
+            margin-left: 1rem;
+            font-size: 0.8rem;
+            font-weight: 400;
+          }
+        }
+      }
+
+      .message {
+        font-size: 1.3rem;
+        font-family: "Lora", serif;
+        padding-bottom: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    .content-side {
+      &__title {
+        font-size: 2.2rem;
+      }
+      &__subtitle {
+        font-size: 1.2rem;
+      }
+      &__btn {
+        font-size: 1rem;
+      }
+    }
+
+    .image-side {
+      .profile-card {
+        width: 80%;
+        padding: 1rem 1.5rem;
+
+        .message {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0 3%;
+  }
+
+  nav {
+    .nav__list {
+      gap: 1.5rem;
+
+      &-item {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  main {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    padding-top: 1.5rem;
+
+    .brand {
+      font-size: 0.9rem;
+    }
+
+    .nav__list {
+      background-color: #000;
+      width: 100%;
+      height: 100%;
+      transform: translateX(-100%);
+      position: fixed;
+      top: 0;
+      left: 0;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.5s;
+      z-index: 1;
+
+      &.active {
+        transform: translateX(0);
+      }
+
+      &-item {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+        position: relative;
+
+        &::before {
+          bottom: -20%;
+        }
+      }
+
+      .close-icon {
+        display: block;
+      }
+    }
+    .menu-icon {
+      display: block;
+    }
+  }
+
+  main {
+    .content-side {
+      &__title {
+        font-size: 1.8rem;
+      }
+      &__subtitle {
+        font-size: 1rem;
+      }
+      &__btn {
+        font-size: 0.9rem;
+      }
+    }
+
+    .image-side {
+      .profile-card {
+        .message {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
