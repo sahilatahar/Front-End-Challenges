@@ -18,7 +18,6 @@ This repository contains a collection of front-end challenge. Each challenge is 
 | 10  | [404 Not Found](https://github.com/sahilatahar/Front-End-Challenges/tree/main/404-not-found)                                                     |              [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/404-not-found)               |
 | 11  | [My Team Page](https://github.com/sahilatahar/Front-End-Challenges/tree/main/my-team-page)                                                       |               [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/my-team-page)               |
 | 12  | [Interior Consultant](https://github.com/sahilatahar/Front-End-Challenges/tree/main/interior-consultant)                                         |           [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/interior-consultant)            |
-| 13  | [Recipe Page](https://github.com/sahilatahar/Front-End-Challenges/tree/main/recipe-page)                                         |           [Live Preview](https://devchallenges-recipe-page-project.netlify.app/)            |
 
 ### Built with
 
