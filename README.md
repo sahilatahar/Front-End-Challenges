@@ -19,6 +19,7 @@ This repository contains a collection of front-end challenge. Each challenge is 
 | 11  | [My Team Page](https://github.com/sahilatahar/Front-End-Challenges/tree/main/my-team-page)                                                       |               [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/my-team-page)               |
 | 12  | [Interior Consultant](https://github.com/sahilatahar/Front-End-Challenges/tree/main/interior-consultant)                                         |           [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/interior-consultant)            |
 | 13  | [Recipe Page](https://github.com/sahilatahar/Front-End-Challenges/tree/main/recipe-page)                                         |           [Live Preview](https://devchallenges-recipe-page-project.netlify.app/)            |
+| 14  | [My Gallery](https://github.com/sahilatahar/Front-End-Challenges/tree/main/my-gallery)                                         |           [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/my-gallery)            |
 
 ### Built with
 
