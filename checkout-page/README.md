@@ -32,7 +32,7 @@
 <!-- OVERVIEW -->
 
 ## Overview
-
+![checkout-page](https://github.com/sahilatahar/Front-End-Challenges/assets/100127570/5dbf206c-0bb4-4267-b773-632294a419f1)
 
 ## Built With
 
