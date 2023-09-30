@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Mulish:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #62B2FF 0.38%, #6E9AFF 0.38%, #63B0FF 0.39%, #7985FF 107.63%, #6D9CFF 107.63%);
+}
+
+main {
+    width: min(550px, 95%);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 2rem;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.10);
+    margin: 2rem 0;
+}
+
+.title {
+    color: #202842;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 1.5rem;
+}
+
+.sub__title {
+    margin-top: 2rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+input,
+textarea {
+    width: 100%;
+    outline: 0;
+    padding: .8rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #EBEBF2;
+    font-family: 'Mulish', sans-serif;
+    color: #7985FF;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid #7985FF;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+input[type="submit"] {
+    background: #7985FF;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .3s ease;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #6CB7FF 0%, #7985FF 99.21%);
+    box-shadow: 0px 5px 6px -6px #F243A9;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.01);
+}
+
+.thanks-div {
+    width: min(600px, 95%);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 1rem;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.10);
+    margin: 2rem 0;
+    display: none;
+}
+
+.thanks-div>img {
+    height: 100px;
+    max-width: 100px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 100%;
+    }
+}
