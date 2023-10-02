@@ -22,6 +22,7 @@ This repository contains a collection of front-end challenge. Each challenge is 
 | 14  | [My Gallery](https://github.com/sahilatahar/Front-End-Challenges/tree/main/my-gallery)                                         |           [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/my-gallery)            |
 | 15  | [Checkout Page](https://github.com/sahilatahar/Front-End-Challenges/tree/main/checkout-page)                                         |           [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/checkout-page)            |
 | 16  | [Contact us form](https://github.com/sahilatahar/Front-End-Challenges/tree/main/contact-us-form)                                         |           [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/contact-us-form)            |
+| 17  | [Calendar Viewer](https://github.com/sahilatahar/Front-End-Challenges/tree/main/calendar-viewer)                                         |           [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/calendar-viewer)            |
 
 ### Built with
 

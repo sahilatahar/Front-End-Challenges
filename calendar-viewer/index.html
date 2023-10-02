@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script prefer src="https://kit.fontawesome.com/c4c30a62d2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calender Viewer</title>
+</head>
+
+<body>
+    <div class="background">
+        <img src="./assets/circle-one.svg" alt="" class="circle-one">
+        <img src="./assets/circle-two.svg" alt="" class="circle-two">
+        <img src="./assets/triangle-one.svg" alt="" class="triangle-one">
+        <img src="./assets/triangle-two.svg" alt="" class="triangle-two">
+        <img src="./assets/triangle-three.svg" alt="" class="triangle-three">
+        <img src="./assets/triangle-four.svg" alt="" class="triangle-four">
+        <img src="./assets/triangle-five.svg" alt="" class="triangle-five">
+    </div>
+    <div class="box">
+        <header>
+            <p class="current-date">February 2023</p>
+            <div class="icons">
+                <span id="previous"><i class="fa-solid fa-chevron-left"></i></span>
+                <span id="next"><i class="fa-solid fa-chevron-right"></i></span>
+            </div>
+        </header>
+        <div class="calender">
+            <ul class="weeks">
+                <li>Sun</li>
+                <li>Mon</li>
+                <li>Tue</li>
+                <li>Wed</li>
+                <li>Thu</li>
+                <li>Fri</li>
+                <li>Sat</li>
+            </ul>
+            <ul class="days"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

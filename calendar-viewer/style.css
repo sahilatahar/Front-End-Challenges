@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F4F3FF;
+    overflow: hidden;
+}
+
+.box {
+    width: min(450px, 90vw);
+    color: white;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #FDFDFF 0%, #F6F7FF 99.24%);
+    box-shadow: 0px 103px 82px -45px rgba(8, 0, 99, 0.13);
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+header .current-date {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #171D35;
+    font-weight: 700;
+}
+
+header .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+header .icons span {
+    height: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0px 0.3rem;
+    background-color: white;
+    color: #171D35;
+    border-radius: 50%;
+}
+
+.calender {
+    padding: 0px 1rem;
+}
+
+.calender ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.calender .days {
+    margin-bottom: 1rem;
+}
+
+.calender .weeks {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.calender ul li {
+    width: calc(100% / 7);
+    height: 3rem;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #171D35;
+}
+
+.days li.inactive {
+    opacity: 0.5;
+}
+
+.calender .days li::before {
+    position: absolute;
+    content: "";
+    height: 2.5rem;
+    width: 2.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.days li.active::before {
+    transition: all .2s;
+    background-color: #744AFF;
+}
+
+.days li.active,
+.calender li:hover {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.days li.active {
+    color: #fff;
+}
+
+@media screen and (max-width: 400px) {
+    header .icons {
+        gap: 1rem;
+    }
+
+    header .icons span {
+        font-size: 1.2rem;
+    }
+
+    .calender ul li {
+        height: 2.5rem;
+    }
+
+    .calender ul {
+        font-size: 1rem;
+    }
+
+    .calender .days li::before {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .calender .weeks,
+    .calender .days {
+        margin-bottom: 0.5rem;
+    }
+
+    .calender {
+        padding: 0px 0.5rem;
+    }
+
+    header .current-date {
+        font-size: 1.2rem;
+    }
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.circle-one {
+    position: absolute;
+    top: 3rem;
+    left: 30%;
+    width: 50px;
+}
+
+.circle-two {
+    position: absolute;
+    left: 30%;
+    bottom: 5%;
+}
+
+.triangle-one {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    width: 100px;
+}
+
+.triangle-two {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 100px;
+}
+
+.triangle-three {
+    position: absolute;
+    bottom: -1rem;
+    right: 2rem;
+}
+
+.triangle-four {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.triangle-five {
+    position: absolute;
+    top: -1rem;
+    right: 2rem;
+}
