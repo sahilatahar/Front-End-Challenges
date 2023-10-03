@@ -23,6 +23,8 @@ This repository contains a collection of front-end challenge. Each challenge is 
 | 15  | [Checkout Page](https://github.com/sahilatahar/Front-End-Challenges/tree/main/checkout-page)                                         |           [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/checkout-page)            |
 | 16  | [Contact us form](https://github.com/sahilatahar/Front-End-Challenges/tree/main/contact-us-form)                                         |           [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/contact-us-form)            |
 | 17  | [Calendar Viewer](https://github.com/sahilatahar/Front-End-Challenges/tree/main/calendar-viewer)                                         |           [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/calendar-viewer)            |
+| 18  | [Toast Notification](https://github.com/sahilatahar/Front-End-Challenges/tree/main/toast-notification)                                         |           [Live Preview](https://toast-notification-frontendpro.netlify.app/)            |
+
 
 ### Built with
 
