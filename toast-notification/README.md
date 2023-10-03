@@ -1,7 +1,6 @@
 ![Toast Notification Component](./src/assets/desktop-cover.png)
 
-# **Challenge Title**
-Toast Notification
+# Toast Notification
 
 ## [Live Preview](https://toast-notification-frontendpro.netlify.app/)
 
