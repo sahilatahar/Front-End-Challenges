@@ -1,0 +1,57 @@
+.Wrapper {
+    background-color: red;
+    width: min(90%, 400px);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1.5rem;
+    border-radius: .5rem;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Wrapper button {
+    width: 100%;
+    border-radius: .5rem;
+    border: 0;
+    outline: 0;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+}
+
+.success-btn {
+    background: #22C55E;
+}
+
+.info-btn {
+    background: #3B82F6;
+}
+
+.warning-btn {
+    background: #F97316;
+}
+
+.error-btn {
+    background: #EF4444;
+}
+
+.toasts {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: all .5s ease-in-out;
+}
+
+@media screen and (max-width: 400px) {
+    .toasts {
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
+}

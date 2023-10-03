@@ -1,0 +1,73 @@
+.Toast {
+    width: min(100%, 350px);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(207, 164, 164, 0.3);
+    transition: opacity 0.3s ease-in-out;
+    position: relative;
+    transform: translateX(0);
+    animation: removeToast .5s 5s forwards;
+    animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.Toast .Toast__icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.Toast .Toast__icon img {
+    width: 100%;
+}
+
+.Toast .Toast__icon.close {
+    cursor: pointer;
+    margin-left: auto;
+    width: 1rem;
+}
+
+.Toast .Toast__message {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.Toast .process-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    animation: progress 5s linear forwards;
+}
+
+@keyframes progress {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0%;
+    }
+}
+
+@keyframes removeToast {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(150%);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Toast {
+        width: 100%;
+    }
+
+}
