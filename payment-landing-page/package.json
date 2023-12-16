@@ -1,0 +1,21 @@
+{
+  "name": "payment-landing-page",
+  "version": "1.0.0",
+  "description": "![contact us form](./design/desktop.svg)",
+  "main": "script.js",
+  "devDependencies": {
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.9",
+    "tailwindcss": "^3.3.6"
+  },
+  "scripts": {
+    "start": "vite",
+    "tailwind": "tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^5.0.9"
+  }
+}

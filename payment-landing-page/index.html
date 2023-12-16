@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Payment Landing Page</title>
+    <link rel="stylesheet" href="./dist/style.css" />
+  </head>
+
+  <body
+    class="bg-dark px-4 font-poppins text-white sm:px-6 lg:mx-auto lg:max-w-7xl lg:px-14"
+  >
+    <nav
+      class="relative flex items-center justify-between py-6 md:static md:gap-10"
+    >
+      <img src="./src/assets/logo.svg" alt="logo" />
+      <button class="h-6 w-6 md:hidden" id="menu-btn">
+        <img src="./src/assets/menu.svg" alt="menu" />
+      </button>
+      <div
+        class="fixed left-0 top-0 h-[100%] w-full flex-grow -translate-x-full bg-dark transition duration-300 ease-in-out md:static md:flex md:w-auto md:translate-x-0 md:flex-row md:items-center md:justify-around"
+        id="drawer"
+      >
+        <div class="flex items-center justify-between p-6 md:hidden">
+          <img src="./src/assets/logo.svg" alt="logo" />
+          <button id="close-btn">
+            <img
+              src="./src/assets/close.svg"
+              alt="close"
+              class="h-8 w-8"
+              id="close-btn"
+            />
+          </button>
+        </div>
+        <ul
+          class="flex flex-col gap-2 px-4 md:flex-row md:gap-8 md:py-0 lg:gap-10"
+        >
+          <li
+            class="btn-hover btn-md cursor-pointer rounded-md p-3 md:cursor-auto md:rounded-none md:p-0"
+          >
+            <a href="#"> Features </a>
+          </li>
+          <li
+            class="btn-hover btn-md cursor-pointer rounded-md p-3 md:cursor-auto md:rounded-none md:p-0"
+          >
+            <a href="#"> Pricing </a>
+          </li>
+          <li
+            class="btn-hover btn-md cursor-pointer rounded-md p-3 md:cursor-auto md:rounded-none md:p-0"
+          >
+            <a href="#"> Help </a>
+          </li>
+          <li
+            class="btn-hover btn-md cursor-pointer rounded-md p-3 md:cursor-auto md:rounded-none md:p-0"
+          >
+            <a href="#"> Blog </a>
+          </li>
+          <li
+            class="btn-hover btn-md cursor-pointer rounded-md p-3 md:cursor-auto md:rounded-none md:p-0"
+          >
+            <a href="#"> About us </a>
+          </li>
+        </ul>
+        <div
+          class="flex flex-col gap-2 px-4 pb-4 md:flex-row md:space-x-5 md:px-0 md:pb-0 lg:space-x-10"
+        >
+          <button
+            class="md:hover:bg-light rounded-md p-3 text-start font-normal text-white hover:bg-light-white hover:text-black md:bg-light-white md:px-4 md:py-2 md:text-center md:font-bold md:text-black"
+          >
+            Login
+          </button>
+          <button
+            class="md:hover:bg-light rounded-md p-3 text-start font-normal text-white hover:bg-light-white hover:text-black md:bg-light-white md:px-4 md:py-2 md:text-center md:font-bold md:text-black"
+          >
+            Sign up
+          </button>
+        </div>
+      </div>
+    </nav>
+    <main
+      class="mt-8 flex flex-col items-center justify-between gap-2 overflow-x-hidden sm:flex-row lg:gap-4"
+    >
+      <div class="ml-2 flex w-full flex-col items-start gap-4 md:w-1/2">
+        <p class="font-medium text-light-white">Start saving money</p>
+        <h1 class="text-3xl font-medium capitalize md:text-4xl lg:text-5xl">
+          Smart credit card <br />
+          for your daily life.
+        </h1>
+        <button
+          class="mt-4 flex items-center gap-4 rounded-md bg-light-white px-4 py-2 text-base font-bold text-black"
+        >
+          Download
+          <img src="./src/assets/download.svg" alt="" class="max-w-full" />
+        </button>
+      </div>
+      <div class="md:w-1/2">
+        <img
+          src="./src/assets/hero.png"
+          alt=""
+          class="mr-auto min-w-[150%] max-w-[300px] sm:min-w-full sm:max-w-full"
+        />
+      </div>
+    </main>
+    <script src="./src/script.js"></script>
+  </body>
+</html>
