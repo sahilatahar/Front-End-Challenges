@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "vite",
-    "tailwind": "tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
+    "tailwind": "tailwindcss -i ./src/style.css -o ./src/tailwind.css --watch"
   },
   "keywords": [],
   "author": "",

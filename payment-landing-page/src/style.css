@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .btn-hover {
-    @apply hover:bg-light-white hover:text-black;
+  @apply hover:bg-light-white hover:text-black;
 }
 
 .btn-md {
-    @apply md:bg-dark md:text-center md:text-white md:hover:bg-dark md:hover:text-white;
+  @apply md:bg-dark md:text-center md:text-white md:hover:bg-dark md:hover:text-white;
 }
