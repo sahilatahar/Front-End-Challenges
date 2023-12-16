@@ -6,6 +6,7 @@ Payment Landing Page
 **Challenge Description**
 We need a landing page for every type of website/app. It helps users to get to know about our product. In this challenge, You’ll create a Payment Landing Page for a fictional Payment App.
 
+## [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/payment-landing-page)
 **Difficulty Level**
 Beginner
 
