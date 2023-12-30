@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body
+    class="font-outfit bg-dark-grey text-white flex flex-col items-center min-h-screen justify-center gap-8 bg-[url('./assets/bg_illustration.svg')] bg-no-repeat bg-right-bottom"
+  >
+    <nav
+      class="h-10 py-8 md:py-8 md:px-12 w-full static md:absolute top-0 left-0 flex justify-center md:justify-start"
+    >
+      <a href="/"><img src="./src/assets/logo.svg" alt="logo" class="h-8" /></a>
+    </nav>
+    <main
+      class="w-[90%] lg:w-[600px] mx-auto flex justify-center items-center flex-col gap-16 p-6 md:p-0 md:pt-20"
+    >
+      <div class="bg-dark-blue p-6 md:p-10 rounded-full">
+        <img
+          src="./src/assets/qrcode.png"
+          alt="qr code image"
+          class="w-[200px] md:w-[300px] aspect-square object-cover p-4 md:p-8 bg-white rounded-xl md:rounded-3xl"
+          id="qr-image"
+        />
+      </div>
+      <div class="flex gap-8 flex-col sm:flex-row w-full">
+        <button
+          class="bg-royal-blue px-10 py-3 rounded-xl text-lg flex gap-4 items-center justify-center w-full"
+          id="download-btn"
+        >
+          <span>Download</span>
+          <img src="./src/assets/download.svg" alt="" />
+        </button>
+        <button
+          class="bg-royal-blue px-10 py-3 rounded-xl text-lg flex gap-4 items-center justify-center w-full"
+          id="share-btn"
+        >
+          <span>Share</span> <img src="./src/assets/share.svg" alt="" />
+        </button>
+      </div>
+    </main>
+
+    <script src="./src/qrcode.js" type="module"></script>
+    <script src="./src/result.js" type="module"></script>
+  </body>
+</html>

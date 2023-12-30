@@ -25,6 +25,7 @@ This repository contains a collection of front-end challenge. Each challenge is 
 | 17  | [Calendar Viewer](https://github.com/sahilatahar/Front-End-Challenges/tree/main/calendar-viewer)                                                 |             [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/calendar-viewer)              |
 | 18  | [Toast Notification](https://github.com/sahilatahar/Front-End-Challenges/tree/main/toast-notification)                                           |                     [Live Preview](https://toast-notification-frontendpro.netlify.app/)                     |
 | 19  | [Payment Landing Page](https://github.com/sahilatahar/Front-End-Challenges/tree/main/payment-landing-page)                                       |           [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/payment-landing-page)           |
+| 20  | [QR Code Generator](https://github.com/sahilatahar/Front-End-Challenges/tree/main/qr-code-generator)                                             |            [Live Preview](https://sahilatahar.github.io/Front-End-Challenges/qr-code-generator)             |
 
 ### Built with
 

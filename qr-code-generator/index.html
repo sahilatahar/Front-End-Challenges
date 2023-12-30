@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body
+    class="font-outfit bg-dark-grey text-white flex flex-col items-center min-h-screen justify-center gap-8 bg-[url('./assets/bg_illustration.svg')] bg-no-repeat bg-right-bottom"
+  >
+    <header>
+      <img src="./src/assets/logo.svg" alt="logo" class="h-12" />
+    </header>
+    <main class="w-[90%] md:w-[70%] lg:w-[600px] mx-auto">
+      <div
+        class="border-royal-blue border-2 bg-black p-1 rounded-2xl flex flex-col gap-2 md:flex-row md:gap-0"
+      >
+        <input
+          type="text"
+          name="url"
+          id="url-input"
+          class="py-2 px-4 bg-black outline-none text-lg flex-grow w-full"
+          placeholder="Enter an url"
+        />
+        <button
+          class="bg-royal-blue px-8 py-3 rounded-xl text-lg min-w-fit"
+          id="generate-btn"
+        >
+          QR code
+        </button>
+      </div>
+    </main>
+
+    <script src="./src/script.js" type="module"></script>
+  </body>
+</html>
