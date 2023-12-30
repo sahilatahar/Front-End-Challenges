@@ -3,25 +3,27 @@ const shareBtn = document.querySelector("#share-btn");
 const qrImage = document.querySelector("#qr-image");
 import { generateQRImage } from "./qrcode.js";
 
-// get url from params
-const text = new URLSearchParams(window.location.search).get("text");
+let url;
 
 window.addEventListener("load", async () => {
-    if (!text) {
-        window.location.href = "/";
+
+    // get url from params
+    url = new URLSearchParams(window.location.search).get("url")
+    if (!url) {
+        url = "https://github.com/sahilatahar";
     }
-    const qrUrl = await generateQRImage(text).then((res) => res.url);
+    const qrUrl = await generateQRImage(url).then((res) => res.url);
     qrImage.src = qrUrl;
 });
 
-const blob = await generateQRImage(text).then((r) => r.blob());
+const blob = await generateQRImage(url).then((r) => r.blob());
 
 downloadBtn.addEventListener("click", async () => {
     const imgUrl = URL.createObjectURL(blob);
 
     const a = document.createElement("a");
     a.href = imgUrl;
-    a.download = "qr-image.png";
+    a.download = "image.png";
     a.click();
 });
 
