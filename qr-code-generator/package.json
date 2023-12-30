@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "tailwindcss": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch",
+    "tailwindcss": "npx tailwindcss -i ./src/tailwind.css -o ./src/style.css --watch",
     "dev": "vite"
   },
   "keywords": [],
